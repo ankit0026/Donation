@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <style>
+        body{
+            background-image: url("https://www.toshiba.com/taes/cms_images/contact-us.jpg");        
+            background-attachment:fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        img{
+            border-radius: 100%;
+            height: 100px;
+            float: left;
+        }
+        .nav{
+            float: right;
+            font-size: 30px;
+            font-weight: bold;
+            color:white;
+            padding: 10px;
+            padding-top: 35px;
+            text-decoration: none;
+        }
+        h1{
+            font-size: 40px;
+           
+            padding-left: 20px;
+            float: left;
+        }
+        .contact{
+            padding-top: 40px;
+        }
+        input[type="text"],input[type="email"],input[type="number"],textarea{
+           float: left;
+           border-radius: 8px;
+           font-size: 25px;
+           border: 2px solid black;
+           background-color: transparent;
+           margin-left: 30px;
+           resize: none;
+        }
+       
+        ::placeholder{
+            color: black;
+            text-align: center;
+            font-size: 15px;
+        }
+        input[type="submit"],input[type="reset"]{
+            color: white;
+            font-size: 15px;
+            background-color: rgb(7, 223, 223);
+            border-radius: 15px;
+            padding:10px;
+            margin-left:15px;
+        }
+        input[type="submit"]:hover{
+            background-color: green;
+
+        }
+        input[type="reset"]:hover{
+          background-color: red;
+        }
+        .nav:hover{
+            color:cyan;
+        }
+        span{
+            padding-top: 50px;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <img src="https://media-exp1.licdn.com/dms/image/C560BAQFgHU3sTF4LfQ/company-logo_200_200/0/1519895156650?e=2159024400&v=beta&t=1iqBaESC2l4UUW7JjEjq0R_HQhwRTaaqyQG1k46q4bs">
+        <h1 >The Sparks Foundation</h1>
+            <a href="contact.html" class="nav">Contact Us</a>
+            <a target="blank" href="https://www.thesparksfoundationsingapore.org/" class="nav">About Us</a>
+            <a href="index.html" class="nav">Home</a>
+    </header><br><br><br><br><br><br>
+    <h1>Get in touch!</h1><br><br><br><br>
+    <form class="contact">
+       <input type="text" placeholder="Name">
+        <input type="text" placeholder="Surname"><br><br><br><br>
+        <input type="number" placeholder="Contact Number">
+        <input type="email" placeholder="E-mail"><br><br><br><br>
+        <textarea name="message" cols="45" rows="5" placeholder="Message"></textarea>
+    </form>
+    <br><br><br><br><br><br><br><br><br><br>
+        <span>
+        <input class="button" type="submit" value="Submit">
+        <input class="button" type="reset" value="Reset">
+    </span>
+
+    
+</body>
+</html>
